@@ -28,6 +28,7 @@ The most similar command is
 [johann-cali e78d321] premier fichier
  1 file changed, 21 insertions(+)
  create mode 100644 evidence/td-02_johann-cali.txt
+
 @JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01 (johann-cali) $ git push 
 fatal: The current branch johann-cali has no upstream branch.
 To push the current branch and set the remote as upstream, use
@@ -54,4 +55,14 @@ To https://github.com/JohannCFi/esilv-startermarketpulse-g06-t01
 branch 'johann-cali' set up to track 'origin/johann-cali'.
 @JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01 (johann-cali) $ git add td-02_johann-cali.txt
 fatal: pathspec 'td-02_johann-cali.txt' did not match any files
-@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01 (johann-cali) $ 
+
+@JohannCFi ➜ /workspaces $ pwd
+/workspaces
+@JohannCFi ➜ /workspaces $ cd data
+bash: cd: data: No such file or directory
+@JohannCFi ➜ /workspaces $ cd /workspaces/esilv-startermarketpulse-g06-t01/data
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data (johann-cali) $ ls
+sample
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data (johann-cali) $ pwd
+/workspaces/esilv-startermarketpulse-g06-t01/data
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data (johann-cali) $ cd ../..
