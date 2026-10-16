@@ -22,3 +22,15 @@ drwxrwxrwx+ 2 codespace root       4096 Oct 16 07:28 evidence
 -rw-rw-rw-  1 codespace root        133 Oct 16 07:28 requirements.txt
 drwxrwxrwx+ 2 codespace root       4096 Oct 16 07:28 src
 -rw-rw-rw-  1 codespace codespace   108 Oct 16 08:49 td-02_paul-gouret.txt
+
+@PGTheDream ➜ /workspaces/esilv-startermarketpulse-g06-t01 (paul-gouret) $ ls -l
+total 44
+-rw-rw-rw-  1 codespace root  2943 Oct 16 07:28 CONTRIBUTING.md
+-rw-rw-rw-  1 codespace root 10270 Oct 16 07:28 README.md
+-rw-rw-rw-  1 codespace root  1435 Oct 16 07:28 TEAM.md
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:28 config
+drwxrwxrwx+ 3 codespace root  4096 Oct 16 07:28 data
+drwxrwxrwx+ 4 codespace root  4096 Oct 16 07:28 docs
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 09:05 evidence
+-rw-rw-rw-  1 codespace root   133 Oct 16 07:28 requirements.txt
+drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:28 src
