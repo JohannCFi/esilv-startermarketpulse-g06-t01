@@ -33,3 +33,22 @@ drwxrwxrwx+ 2 codespace root  4096 Oct 16 08:50 evidence
 -rw-rw-rw-  1 codespace root   133 Oct 16 07:27 requirements.txt
 drwxrwxrwx+ 2 codespace root  4096 Oct 16 07:27 src
 @ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ 
+
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ cd data 
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01/data (clement-romano) $ pwd && ls
+/workspaces/esilv-startermarketpulse-g06-t01/data
+sample
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01/data (clement-romano) $ cd sample/
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (clement-romano) $ ls
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (clement-romano) $ cd ../..
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ pwd
+/workspaces/esilv-startermarketpulse-g06-t01
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ cd data/sample/
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (clement-romano) $ cd ../..
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ ls data/sample/
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ 
+
+@ClemRo998 ➜ /workspaces/esilv-startermarketpulse-g06-t01 (clement-romano) $ ls -a
+.  ..  .git  .gitignore  CONTRIBUTING.md  README.md  TEAM_TEMPLATE.md  config  data  docs  evidence  requirements.txt  src
