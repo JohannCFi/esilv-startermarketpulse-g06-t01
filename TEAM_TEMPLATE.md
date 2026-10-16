@@ -20,7 +20,7 @@ Add a fourth row only if your team has four members.
 
 ## Repository
 
-- Team repository: `esilv-marketpulse-g06-tYY`
+- Team repository: `esilv-marketpulse-g06-t01`
 - Upstream repository: `tawounfouet/esilv-marketpulse`
 
 ## Market choice
