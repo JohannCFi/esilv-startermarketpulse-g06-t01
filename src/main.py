@@ -13,12 +13,12 @@ INTERVAL_LABEL = "Daily"
 
 
 def load_instruments():
-    with open(DATA_DIR / "instruments.json", encoding="utf-8") as file:
+    with open("/workspaces/esilv-startermarketpulse-g06-t01/data/sample/instruments.json", encoding="utf-8") as file:
         return json.load(file)
 
 
 def load_prices():
-    with open(DATA_DIR / "prices.csv", encoding="utf-8") as file:
+    with open("/workspaces/esilv-startermarketpulse-g06-t01/data/sample/instruments.json", encoding="utf-8") as file:
         return list(csv.DictReader(file))
 
 
