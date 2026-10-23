@@ -1,0 +1,90 @@
+# 1 - Afficher le chemin du répertoire actuel 
+pwd 
+
+# 2 Aller dans le dossier "dossier" 
+cd dossier
+
+# 3 Revenir en arrière 
+cd .. 
+
+# 4 Créer un fichier "fichier"
+touch fichier 
+
+# 5 Créer un dossier "dossier"
+mkdir dossier
+
+# 6 Afficher es fichiers et dossiers du répertoire actuel 
+ls
+
+# 7 Afficher es fichiers et dossiers ainsi que ceux cachés du répertoire actuel 
+ls -la 
+
+# 8 Revenir plusieurs fois en arrière 
+cd ../..
+
+# 9 Bouger une fichier "fichier" dans dossier 
+mv fichier dossier
+
+# 10 lancer un fichier "fichier"
+cat fichier
+
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01 (johann-cali) $ cd data
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data (johann-cali) $ cd sample 
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (johann-cali) $ ls 
+bloomberg_reference_expected.json  bloomberg_reference_sample.json  instruments.json  prices.csv
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (johann-cali) $ cat instruments.json
+{
+  "instrument": {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "currency": "USD",
+    "market": "NASDAQ"
+  },
+  "benchmark": {
+    "ticker": "SP500",
+    "name": "S&P 500",
+    "currency": "USD",
+    "market": "US"
+  }
+}
+
+# 11 lancer un fichier "fichier" avec son chemin "chemin"
+cat chemin/fichier
+
+# 12 grep
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (johann-cali) $ grep AAPL prices.csv 
+2026-09-01,AAPL,249.20,251.50,248.00,250.00,38000000
+2026-09-02,AAPL,250.80,252.80,249.60,251.30,39500000
+2026-09-03,AAPL,249.60,251.30,248.40,249.80,41000000
+2026-09-04,AAPL,251.30,253.60,250.10,252.10,42500000
+2026-09-08,AAPL,251.90,253.90,250.70,252.40,44000000
+2026-09-09,AAPL,254.00,255.70,252.80,254.20,38000000
+2026-09-10,AAPL,254.30,256.60,253.10,255.10,39500000
+2026-09-11,AAPL,254.20,256.20,253.00,254.70,41000000
+2026-09-14,AAPL,256.60,258.30,255.40,256.80,42500000
+2026-09-15,AAPL,257.20,259.50,256.00,258.00,44000000
+2026-09-16,AAPL,256.70,258.70,255.50,257.20,38000000
+2026-09-17,AAPL,259.20,260.90,258.00,259.40,39500000
+2026-09-18,AAPL,259.30,261.60,258.10,260.10,41000000
+2026-09-21,AAPL,259.10,261.10,257.90,259.60,42500000
+2026-09-22,AAPL,261.10,262.80,259.90,261.30,44000000
+2026-09-23,AAPL,261.20,263.50,260.00,262.00,38000000
+2026-09-24,AAPL,263.00,265.00,261.80,263.50,39500000
+2026-09-25,AAPL,262.60,264.30,261.40,262.80,41000000
+2026-09-28,AAPL,263.30,265.60,262.10,264.10,42500000
+2026-09-29,AAPL,264.50,266.50,263.30,265.00,44000000
+2026-09-30,AAPL,266.00,267.70,264.80,266.20,38000000
+
+# 13 head 
+@JohannCFi ➜ /workspaces/esilv-startermarketpulse-g06-t01/data/sample (johann-cali) $ head prices.csv
+date,ticker,open,high,low,close,volume
+2026-09-01,AAPL,249.20,251.50,248.00,250.00,38000000
+2026-09-01,SP500,6592.00,6615.00,6580.00,6600.00,0
+2026-09-02,AAPL,250.80,252.80,249.60,251.30,39500000
+2026-09-02,SP500,6607.00,6627.00,6595.00,6612.00,0
+2026-09-03,AAPL,249.60,251.30,248.40,249.80,41000000
+2026-09-03,SP500,6596.00,6613.00,6584.00,6598.00,0
+2026-09-04,AAPL,251.30,253.60,250.10,252.10,42500000
+2026-09-04,SP500,6612.00,6635.00,6600.00,6620.00,0
+2026-09-08,AAPL,251.90,253.90,250.70,252.40,44000000
+
