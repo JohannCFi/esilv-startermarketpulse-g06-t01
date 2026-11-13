@@ -25,7 +25,6 @@ def load_prices():
 def filter_prices(prices, ticker):
     return [row for row in prices if row["ticker"] == ticker]
 
-
 def main():
     instruments = load_instruments()
     prices = load_prices()
@@ -59,3 +58,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
