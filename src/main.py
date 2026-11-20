@@ -13,12 +13,12 @@ INTERVAL_LABEL = "Daily"
 
 
 def load_instruments():
-    with open("/workspaces/esilv-startermarketpulse-g06-t01/data/sample/instruments.json", encoding="utf-8") as file:
+    with open(DATA_DIR / "instruments.json", encoding="utf-8") as file:
         return json.load(file)
 
 
 def load_prices():
-    with open("/workspaces/esilv-startermarketpulse-g06-t01/data/sample/instruments.json", encoding="utf-8") as file:
+    with open(DATA_DIR / "prices.csv", encoding="utf-8") as file:
         return list(csv.DictReader(file))
 
 
@@ -79,7 +79,7 @@ def main():
     print("Instrument")
     print(f"{instrument['ticker']} - {instrument['name']}")
     print(f"Market : {instrument['market']}")
-    print(f"Last price: {instrument_latest['close']} {instrument['currency']}")
+    print(f"Latest closing price: {instrument_latest['close']} {instrument['currency']}")
     print()
     print("Benchmark")
     print(f"{benchmark['ticker']} - {benchmark['name']}")
