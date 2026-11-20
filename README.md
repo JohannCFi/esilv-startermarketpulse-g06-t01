@@ -19,6 +19,13 @@
 
 > Acquire market data from several provider stages, normalize it to one canonical contract, compare one instrument with its benchmark, then expose the same application result through the terminal and a Dash dashboard.
 
+## Run MarketPulse
+
+Run the application from the projectt root :
+
+''' bash 
+python src/main.py
+
 ### ⚡ Languages and Tools
 
 <p align="center">
