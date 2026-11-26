@@ -6,7 +6,7 @@ APPROVED_SAMPLE
 
 - Source: `data/sample/bloomberg_reference_sample.json`
 - Expected canonical reference: `data/sample/bloomberg_reference_expected.json`
-- Reference: `docs/10_BLOOMBERG_INSTRUCTOR_REFERENCE.md` (instructor reference, not present in the team repository)
+- Reference: Bloomberg instructor reference (external reference, not included in the team repository)
 - Live connectivity: not demonstrated
 
 The sample file declares itself as an instructor-approved fallback fixture (`"is_live_bloomberg_output": false`). Its values are illustrative teaching values reused from `data/sample/prices.csv`, not certified Bloomberg historical observations.
@@ -50,6 +50,7 @@ Applying this mapping to the 42 observations of the sample produces exactly the 
 ## TD10 handoff
 
 - Access mode: APPROVED_SAMPLE (live connectivity not demonstrated)
+- Target file: `src/providers/bloomberg_provider.py` (PR #8)
 - Instrument identifier: `AAPL US Equity` -> canonical `AAPL`
 - Benchmark identifier: `SPX Index` -> canonical `SP500`
 - Date representation: `YYYY-MM-DD` string in `observation_date`
